@@ -6,56 +6,65 @@
 <title>ET Legal Group | Trusted Counsel. Global Reach.</title>
 <meta name="description" content="Firma internacional de abogados con presencia en Colombia, España y Estados Unidos.">
 <style>
-:root{--gold:#d4af37;--dark:#0b0b0b;--light:#f5f5f5;--card:#171717}
-*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
-body{font-family:Segoe UI,Arial,sans-serif;background:var(--dark);color:var(--light);line-height:1.7}
-header{position:fixed;top:0;width:100%;background:rgba(11,11,11,.96);padding:18px 6%;display:flex;justify-content:space-between;align-items:center;z-index:1000;border-bottom:1px solid #2d2d2d}
-.logo{color:var(--gold);font-size:30px;font-weight:700}.nav a{color:#fff;text-decoration:none;margin-left:18px}
-.hero{height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.8)),url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=1800&auto=format&fit=crop') center/cover}
-.hero h1{font-size:72px;color:var(--gold)}.btn{display:inline-block;background:var(--gold);color:#000;padding:14px 26px;text-decoration:none;border-radius:6px;font-weight:bold;margin-top:20px}
-section{padding:90px 6%}.title{text-align:center;color:var(--gold);font-size:42px;margin-bottom:30px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
-.card{background:var(--card);padding:25px;border:1px solid #333;border-radius:12px}.card h3{color:var(--gold)}
-.details{max-width:1100px;margin:auto}.practice{background:var(--card);padding:30px;margin:25px 0;border-radius:12px;border:1px solid #333}
-.practice h3{color:var(--gold);margin-bottom:10px}
-footer{text-align:center;padding:30px;border-top:1px solid #333}.lang{color:white}
-@media(max-width:768px){.nav{display:none}.hero h1{font-size:42px}}
+:root{--sapphire:#0F2747;--sapphire2:#081A32;--gold:#D4AF37;--white:#F8F8F8}
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+body{font-family:Segoe UI,Arial,sans-serif;background:linear-gradient(180deg,var(--sapphire2),var(--sapphire),var(--sapphire2));color:var(--white)}
+header{position:fixed;top:0;width:100%;background:rgba(8,26,50,.95);padding:18px 6%;display:flex;justify-content:space-between;align-items:center;z-index:999;border-bottom:1px solid rgba(212,175,55,.2)}
+.logo{font-size:32px;font-weight:700;color:var(--gold)}
+nav a{color:white;text-decoration:none;margin-left:18px}
+.hero{height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;background:linear-gradient(rgba(8,26,50,.75),rgba(15,39,71,.85)),url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1800&auto=format&fit=crop') center/cover}
+.hero h1{font-size:78px;color:var(--gold)}
+.hero p{margin:10px auto;max-width:900px;font-size:20px}
+.btn{display:inline-block;margin:12px;padding:15px 30px;background:var(--gold);color:#000;text-decoration:none;border-radius:8px;font-weight:700}
+section{padding:90px 6%}
+.title{text-align:center;color:var(--gold);font-size:42px;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+.card,.practice{background:rgba(255,255,255,.06);backdrop-filter:blur(10px);border:1px solid rgba(212,175,55,.2);padding:24px;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.2)}
+.card h3,.practice h3{color:var(--gold);margin-bottom:10px}
+.practice{margin-bottom:20px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;text-align:center}
+.stat{padding:20px;background:rgba(255,255,255,.05);border-radius:12px}
+footer{text-align:center;padding:40px;border-top:1px solid rgba(212,175,55,.2)}
+.contact{text-align:center}
+@media(max-width:768px){nav{display:none}.hero h1{font-size:48px}.stats{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
-<header>
-<div class="logo">ET LEGAL GROUP</div>
-<div class="nav">
-<a href="#about">Nosotros</a><a href="#services">Áreas</a><a href="#details">Detalle</a><a href="#presence">Presencia</a><a href="#contact">Contacto</a>
-<select class="lang"><option>ES</option><option>EN</option></select>
-</div>
-</header>
+<header><div class="logo">ET LEGAL GROUP</div><nav><a href="#about">Nosotros</a><a href="#services">Áreas</a><a href="#presence">Presencia</a><a href="#contact">Contacto</a></nav></header>
 <section class="hero">
 <div>
 <h1>ET LEGAL GROUP</h1>
-<p><strong>Excelencia | Estrategia | Resultados</strong></p>
-<p>Trusted Counsel. Global Reach.</p>
-<p>Asesoría jurídica estratégica para empresas, inversores y familias.</p>
-<a class="btn" href="https://wa.me/573117575792">WhatsApp</a>
+<p><strong>Trusted Counsel. Global Reach.</strong></p>
+<p>Excelencia | Estrategia | Resultados</p>
+<p>Asesoría jurídica estratégica para empresas, inversores y familias con intereses internacionales.</p>
+<a class="btn" href="https://wa.me/573117575792">Hablar con un abogado</a>
 </div>
 </section>
-<section id="about"><h2 class="title">Visión Internacional</h2><p style="max-width:900px;margin:auto;text-align:center">ET Legal Group ofrece soluciones jurídicas de alto nivel con enfoque empresarial e internacional, acompañando a clientes en la protección de su patrimonio, desarrollo corporativo y planificación estratégica.</p></section>
+<section>
+<div class="stats">
+<div class="stat"><h2 style="color:#D4AF37">6</h2><p>Áreas de práctica</p></div>
+<div class="stat"><h2 style="color:#D4AF37">3</h2><p>Países</p></div>
+<div class="stat"><h2 style="color:#D4AF37">100%</h2><p>Compromiso</p></div>
+</div>
+</section>
+<section id="about"><h2 class="title">Visión Internacional</h2><p style="max-width:950px;margin:auto;text-align:center">ET Legal Group ofrece soluciones jurídicas de alto nivel para clientes nacionales e internacionales, combinando excelencia técnica, visión estratégica y acompañamiento personalizado.</p></section>
 <section id="services"><h2 class="title">Áreas de Práctica</h2><div class="grid">
-<div class="card"><h3><a href="#corp" style="color:#d4af37">Derecho Corporativo</a></h3></div>
-<div class="card"><h3><a href="#trib" style="color:#d4af37">Derecho Tributario</a></h3></div>
-<div class="card"><h3><a href="#civil" style="color:#d4af37">Derecho Civil</a></h3></div>
-<div class="card"><h3><a href="#family" style="color:#d4af37">Familia y Sucesiones</a></h3></div>
-<div class="card"><h3><a href="#notarial" style="color:#d4af37">Trámites Notariales</a></h3></div>
-<div class="card"><h3><a href="#intl" style="color:#d4af37">Asesoría Internacional</a></h3></div>
+<div class="card"><h3>Derecho Corporativo</h3><p>Gobierno corporativo, contratos, fusiones y adquisiciones.</p></div>
+<div class="card"><h3>Derecho Tributario</h3><p>Planeación fiscal y cumplimiento.</p></div>
+<div class="card"><h3>Derecho Civil</h3><p>Protección patrimonial y controversias.</p></div>
+<div class="card"><h3>Familia y Sucesiones</h3><p>Planeación patrimonial, testamentos y sucesiones.</p></div>
+<div class="card"><h3>Trámites Notariales</h3><p>Escrituras, poderes y autenticaciones.</p></div>
+<div class="card"><h3>Asesoría Internacional</h3><p>Inversión extranjera y expansión empresarial.</p></div>
 </div></section>
-<section id="details"><h2 class="title">Áreas de Práctica en Detalle</h2><div class="details">
-<div id="corp" class="practice"><h3>Derecho Corporativo</h3><p>Constitución de sociedades, gobierno corporativo, pactos de accionistas, fusiones, adquisiciones, contratación mercantil y reorganizaciones empresariales.</p></div>
-<div id="trib" class="practice"><h3>Derecho Tributario</h3><p>Planeación fiscal nacional e internacional, cumplimiento tributario, procedimientos administrativos y estrategias de optimización fiscal.</p></div>
-<div id="civil" class="practice"><h3>Derecho Civil</h3><p>Contratos, responsabilidad civil, reclamaciones patrimoniales, protección de activos y resolución de controversias.</p></div>
-<div id="family" class="practice"><h3>Derecho de Familia y Sucesiones</h3><p>Divorcios, custodia, alimentos, capitulaciones, sucesiones, testamentos y planificación patrimonial familiar.</p></div>
-<div id="notarial" class="practice"><h3>Trámites Notariales</h3><p>Escrituras públicas, compraventas, autenticaciones, poderes, declaraciones y formalización de actos jurídicos.</p></div>
-<div id="intl" class="practice"><h3>Asesoría Internacional</h3><p>Inversión extranjera, expansión empresarial, negocios transfronterizos, compliance y estructuración internacional.</p></div>
-</div></section>
-<section id="presence"><h2 class="title">Presencia Internacional</h2><div class="grid"><div class="card"><h3>Colombia</h3></div><div class="card"><h3>España</h3></div><div class="card"><h3>Estados Unidos</h3></div></div></section>
-<section id="contact"><h2 class="title">Contacto</h2><p style="text-align:center">📧 juridico@etlegalgroup.co<br>📱 +57 311 757 5792<br>🌐 etlegalgroup.co</p></section>
-<footer>© 2026 ET Legal Group · Trusted Counsel. Global Reach.</footer>
+<section><h2 class="title">Detalle de Servicios</h2>
+<div class="practice"><h3>Derecho Corporativo</h3><p>Constitución de sociedades, reorganizaciones empresariales, pactos de accionistas y contratación mercantil.</p></div>
+<div class="practice"><h3>Derecho Tributario</h3><p>Planeación tributaria nacional e internacional, procedimientos administrativos y mitigación de riesgos fiscales.</p></div>
+<div class="practice"><h3>Derecho Civil</h3><p>Contratos, responsabilidad civil, reclamaciones patrimoniales y resolución de controversias.</p></div>
+<div class="practice"><h3>Familia y Sucesiones</h3><p>Divorcios, custodias, sucesiones, testamentos y protección patrimonial familiar.</p></div>
+<div class="practice"><h3>Trámites Notariales</h3><p>Formalización de actos jurídicos, compraventas, poderes y escrituras públicas.</p></div>
+<div class="practice"><h3>Asesoría Internacional</h3><p>Negocios transfronterizos, compliance e inversión internacional.</p></div>
+</section>
+<section id="presence"><h2 class="title">Presencia Internacional</h2><div class="grid"><div class="card"><h3>🇨🇴 Colombia</h3></div><div class="card"><h3>🇪🇸 España</h3></div><div class="card"><h3>🇺🇸 Estados Unidos</h3></div></div></section>
+<section id="contact" class="contact"><h2 class="title">Contacto</h2><p>📧 juridico@etlegalgroup.co</p><p>📱 +57 311 757 5792</p><p>🌐 etlegalgroup.co</p><a class="btn" href="https://wa.me/573117575792">Consulta Jurídica</a></section>
+<footer><h3>ET LEGAL GROUP</h3><p>Trusted Counsel. Global Reach.</p><p>🇨🇴 Colombia | 🇪🇸 España | 🇺🇸 Estados Unidos</p><p>juridico@etlegalgroup.co</p></footer>
 </body></html>
