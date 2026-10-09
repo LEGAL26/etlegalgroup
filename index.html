@@ -3,64 +3,76 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ET Legal Group | Firma Internacional</title>
-<meta name="description" content="Firma internacional de abogados con presencia en Colombia, Málaga y Nueva York.">
+<title>ET Legal Group | Global Legal Counsel</title>
+<meta name="description" content="Firma internacional con presencia en Colombia, Málaga y Nueva York.">
 <style>
-:root{--gold:#d4af37;--dark:#0c0c0c;--card:#171717;--light:#f4f4f4}
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Arial,Helvetica,sans-serif;background:var(--dark);color:var(--light);line-height:1.6}
-header{position:sticky;top:0;background:#111;padding:18px 8%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #333}
-.logo{color:var(--gold);font-size:28px;font-weight:bold}
-nav a{color:white;text-decoration:none;margin-left:20px}
-.hero{min-height:80vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:60px 20px;background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=1600&auto=format&fit=crop') center/cover}
-.hero h1{font-size:64px;color:var(--gold)}
-.btn{display:inline-block;margin-top:20px;background:var(--gold);color:black;padding:14px 24px;text-decoration:none;border-radius:6px;font-weight:bold}
-section{padding:80px 8%}
-.title{font-size:40px;color:var(--gold);text-align:center;margin-bottom:30px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
-.card{background:var(--card);padding:25px;border-radius:10px;border:1px solid #333}
+:root{--gold:#d4af37;--dark:#0b0b0b;--card:#161616;--light:#f5f5f5}
+*{margin:0;padding:0;box-sizing:border-box} html{scroll-behavior:smooth}
+body{font-family:Segoe UI,Arial,sans-serif;background:var(--dark);color:var(--light)}
+header{position:fixed;top:0;width:100%;background:rgba(11,11,11,.95);padding:20px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #2a2a2a;z-index:1000}
+.logo{color:var(--gold);font-weight:700;font-size:30px}
+nav a{color:#fff;text-decoration:none;margin-left:24px}
+.hero{height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.75)),url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=1800&auto=format&fit=crop') center/cover}
+.hero h1{font-size:72px;color:var(--gold)}
+.hero p{font-size:20px;margin:12px 0}
+.btn{display:inline-block;background:var(--gold);color:#000;padding:14px 28px;border-radius:6px;text-decoration:none;font-weight:700;margin-top:18px}
+.lang{background:#111;color:#fff;border:1px solid #555;padding:8px}
+section{padding:90px 7%}
+.title{text-align:center;color:var(--gold);font-size:42px;margin-bottom:35px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}
+.card{background:var(--card);padding:26px;border-radius:12px;border:1px solid #2d2d2d}
 .card h3{color:var(--gold);margin-bottom:10px}
-.contact{text-align:center}
-footer{text-align:center;padding:25px;border-top:1px solid #333}
-@media(max-width:768px){nav{display:none}.hero h1{font-size:42px}}
+.contact{text-align:center}.contact p{margin:10px 0}
+footer{text-align:center;padding:30px;border-top:1px solid #2d2d2d}
+.whatsapp{position:fixed;bottom:20px;right:20px;background:var(--gold);color:#000;padding:15px 18px;border-radius:40px;text-decoration:none;font-weight:700}
 </style>
 </head>
 <body>
 <header>
 <div class="logo">ET LEGAL GROUP</div>
 <nav>
-<a href="#nosotros">Nosotros</a>
-<a href="#servicios">Servicios</a>
-<a href="#contacto">Contacto</a>
+<a href="#about">Nosotros</a>
+<a href="#services">Servicios</a>
+<a href="#offices">Oficinas</a>
+<a href="#contact">Contacto</a>
+<select class="lang"><option>ES</option><option>EN</option></select>
 </nav>
 </header>
 <section class="hero">
 <div>
 <h1>ET LEGAL GROUP</h1>
-<p>Excelencia | Estrategia | Resultados</p>
-<p>Asesoría jurídica con alcance global.</p>
-<a class="btn" href="https://wa.me/573183402303">WhatsApp</a>
+<p><strong>Excelencia | Estrategia | Resultados</strong></p>
+<p>Asesoría jurídica estratégica con alcance global.</p>
+<a class="btn" href="https://wa.me/573117575792">Contactar por WhatsApp</a>
 </div>
 </section>
-<section id="nosotros">
-<h2 class="title">Sobre Nosotros</h2>
-<p style="max-width:900px;margin:auto;text-align:center">ET Legal Group ofrece asesoría jurídica estratégica para empresas, inversores y particulares con una visión internacional.</p>
+<section id="about">
+<h2 class="title">Visión Internacional</h2>
+<p style="max-width:900px;margin:auto;text-align:center">ET Legal Group brinda asesoría jurídica para empresas, inversores y familias con operaciones nacionales e internacionales, combinando excelencia técnica, criterio estratégico y atención personalizada.</p>
 </section>
-<section id="servicios">
+<section id="services">
 <h2 class="title">Áreas de Práctica</h2>
 <div class="grid">
-<div class="card"><h3>Derecho Corporativo</h3><p>Estructuración empresarial y contratos.</p></div>
-<div class="card"><h3>Derecho Tributario</h3><p>Planeación fiscal y cumplimiento.</p></div>
-<div class="card"><h3>Derecho Civil</h3><p>Patrimonio, contratos y controversias.</p></div>
-<div class="card"><h3>Asesoría Internacional</h3><p>Inversión extranjera y expansión global.</p></div>
+<div class="card"><h3>Derecho Corporativo</h3><p>Gobierno corporativo, contratos, fusiones y adquisiciones.</p></div>
+<div class="card"><h3>Derecho Tributario</h3><p>Planeación fiscal nacional e internacional.</p></div>
+<div class="card"><h3>Derecho Civil</h3><p>Patrimonio, contratos y resolución de controversias.</p></div>
+<div class="card"><h3>Asesoría Internacional</h3><p>Inversión extranjera y expansión empresarial.</p></div>
 </div>
 </section>
-<section id="contacto" class="contact">
-<h2 class="title">Contacto</h2>
-<p>contacto@etlegalgroup.co</p>
-<p>+57 318 340 2303</p>
-<p>Colombia · Málaga · Nueva York</p>
+<section id="offices">
+<h2 class="title">Presencia Internacional</h2>
+<div class="grid">
+<div class="card"><h3>🇨🇴 Colombia</h3><p>Bogotá</p></div>
+<div class="card"><h3>🇪🇸 España</h3><p>Málaga</p></div>
+<div class="card"><h3>🇺🇸 Estados Unidos</h3><p>Nueva York</p></div>
+</div>
 </section>
-<footer>© 2026 ET Legal Group</footer>
-</body>
-</html>
+<section id="contact" class="contact">
+<h2 class="title">Contacto</h2>
+<p>📧 contacto@etlegalgroup.co</p>
+<p>📱 +57 311 757 5792</p>
+<p>🌐 etlegalgroup.co</p>
+</section>
+<footer>© 2026 ET Legal Group · Global Reach. Trusted Counsel.</footer>
+<a class="whatsapp" href="https://wa.me/573117575792">WhatsApp</a>
+</body></html>
